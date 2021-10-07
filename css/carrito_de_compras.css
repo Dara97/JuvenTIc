@@ -1,0 +1,57 @@
+
+.logo {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+
+.logo span {
+  background: linear-gradient(135deg, #fff783 0, #ffdf67 25%, #f9c346 50%, #e8a722 75%, #db8f00 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+table{
+  background-color: white;
+  width: 500px;
+}
+html body{
+  background-image: url("\\images\\fondo_oscuro.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+@media(min-width: 700px) {
+  .contenedor{
+      padding: 0 4em;
+      
+  }
+}
+
+img{
+  width: 120px;
+  height: 120px;
+}
+.remove{
+  display: none;
+}
+th,tr{
+  width: 300px;
+  text-align: center;
+}
+.comprar {
+  width: 200px;
+  font-family: "Roboto Slab", serif;
+  background-image: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+}
+
+.alert{
+  z-index: 100;
+}

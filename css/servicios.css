@@ -1,0 +1,101 @@
+html body {
+  background-image: url("\\images\\fondo_oscuro.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-size: 1rem;
+}
+
+
+h2,
+h3,
+h4,
+h5,
+button,
+.amiibo-name {
+	font-family: "Bitter", serif;
+}
+
+
+#hero {
+	background-image: url(/sts.jpg);
+	background-size: cover;
+	padding-top: 100px;
+	margin-bottom: 60px;
+	min-height: 700px;
+	color: #ffff;
+}
+
+
+
+h1  {
+	padding-top: 100spx;
+	text-align: center;
+	color: rgb(237, 237, 237);
+	font-family: "Suez One", serif;}
+
+/* fondo */
+#games {
+
+  /*
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 1) 0%,
+		rgba(99, 196, 255, 1) 57%
+	);
+  */
+	background-repeat: repeat-x;
+	background-size: 75%;
+	margin-top: -20px;
+}
+/* color borde cartas */
+.card-border {
+	border: solid 5px rgb(162, 160, 160);
+	border-radius: 40px;
+	overflow: hidden;
+	transition: all ease-out 0.2s;
+}
+.card-border:hover {
+	transform: scale(1.05);
+
+   
+}
+t {
+
+    font-weight: 100;
+}
+
+/* NAV BAR */
+.navbar {
+    background-color: black;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .nav-link {
+    color: #ffff !important;
+  }
+  
+  .navbar-toggler:focus {
+    color: #ffff;
+    outline: none !important;
+  }
+  
+  .title-navbar {
+    background: linear-gradient(
+      135deg,
+      #fff783 0,
+      #ffdf67 25%,
+      #f9c346 50%,
+      #e8a722 75%,
+      #db8f00 100%
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  /* FIN NAV BAR */
+
+  /*FOOTER*/
+  

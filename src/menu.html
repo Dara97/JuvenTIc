@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>Menú</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+	 crossorigin="anonymous" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Suez+One&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+	 crossorigin="anonymous" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="/css/navbar.css" />
+	<link rel="stylesheet" href="/css/menuStyle.css" />
+	<link rel="stylesheet" href="/css/mainPage.css" />
+	<link rel="stylesheet" href="/css/footer.css" />
+
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+	<script src="https://code.jquery.com/jquery-1.12.4.js">
+	</script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+	</script>
+</head>
+
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+		<div class="container">
+			<h1 class="title-navbar">SAL&SALSA</h1>
+
+			<button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/src/historia.html"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/src/menu.html"
+                >Menú</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/src/servicios.html"
+                >Servicios</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/src/reservas.html"
+                >Reservas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/src/carrito_de_compras.html"
+                >Carrito</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br /><br /><br /><br />
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+      Producto añadido al carrito!
+      </div>
+
+      
+    <!------------------------HAMBURGUESAS --------------------------------->
+    <section class="container">
+      <h1 class="comida">HAMBURGUESAS</h1>
+      <div class="row" id="burguer">
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Hamburguesa especial</h3>
+          </div>
+
+          <div>
+            <img
+              src="\images\hamburguesa_especial.png"
+              alt="Hamburguesa especial"
+              id="image"
+            />
+          </div>
+
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i
+              ><span class="precio"> 25000 </span>
+            </h2>
+          </div>
+
+          <div class="description">
+            <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning btn-block"
+              data-bs-toggle="modal"
+              data-bs-target="#burger1"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i> Agregar carrito
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Hamburguesa de carne</h3>
+          </div>
+
+          <div>
+            <img
+              src="\images\hamburguesa_triple_carne.png"
+              alt="Hamburguesa triple carne"
+              id="image"
+            />
+          </div>
+
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i
+              ><span class="precio"> 25000 </span>
+            </h2>
+          </div>
+
+          <div class="description">
+            <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning btn-block"
+              data-bs-toggle="modal"
+              data-bs-target="#burger2"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i> Agregar carrito
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Hamburguesa de pan negro</h3>
+          </div>
+
+          <div>
+            <img
+              src="\images\hamburguesa_negra.png"
+              alt="Hamburguesa negra"
+              id="image"
+            />
+          </div>
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i>
+              <span class="precio"> 25000 </span>
+            </h2>
+          </div>
+          <div class="description">
+            <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning btn-block"
+              data-bs-toggle="modal"
+              data-bs-target="#burger3"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i> Agregar carrito
+            </button>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br />
+      <!------------------------PIZZAS --------------------------------->
+      <h1 class="comida">PIZZAS</h1>
+      <div class="row" id="pizza">
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Pizza bacon</h3>
+          </div>
+          <div>
+            <img src="\images\pizza_bacon.png" alt="Pizza bacon" id="image" />
+          </div>
+
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i
+              ><span class="precio"> 25000 </span>
+            </h2>
+          </div>
+
+          <div class="desciption">
+            <h6>There are many variations of passages of Lorem Ipsum available.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#pizza1"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i> Agregar carrito
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Pizza de pollo con champiñones</h3>
+          </div>
+          <div>
+            <img
+              src="\images\pizza_pollo_champiñones.png"
+              alt="Pizza pollo champiñones"
+              id="image"
+            />
+          </div>
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i
+              ><span class="precio"> 25000 </span>
+            </h2>
+          </div>
+          <div class="description">
+            <h6>There are many variations of passages of Lorem Ipsum available.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#pizza2"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i> Agregar carrito
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Pizza sushi</h3>
+          </div>
+          <div>
+            <img src="\images\pizza_sushi.png" alt="Pizza sushi" id="image" />
+          </div>
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i
+              ><span class="precio"> 25000 </span>
+            </h2>
+          </div>
+          <div class="description">
+            <h6>There are many variations of passages of Lorem Ipsum available.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#pizza3"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i> Agregar carrito
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br />
+
+      <!------------------------PROTEÍNAS --------------------------------->
+      <h1 class="comida">PROTEÍNAS</h1>
+      <div class="row" id="protein">
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Carne a la parrilla</h3>
+          </div>
+
+          <div>
+            <img
+              src="\images\carne_parrilla.png"
+              alt="Carne parrilla"
+              id="image"
+            />
+          </div>
+
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i>
+              <span class="precio"> 25000 </span>
+            </h2>
+          </div>
+
+          <div class="description">
+            <h6>There are many variations of passages of Lorem Ipsum available.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#protein1"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i> Agregar carrito
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Costillas de cordero</h3>
+          </div>
+
+          <div>
+            <img
+              src="\images\costillas_cordero.png"
+              alt="Costillas cordero"
+              id="image"
+            />
+          </div>
+
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i>
+              <span class="precio"> 25000 </span>
+            </h2>
+          </div>
+
+          <div class="description">
+            <h6>There are many variations of passages of Lorem Ipsum available.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#protein2"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i>
+              Agregar carrito
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Sushi</h3>
+          </div>
+
+          <div>
+            <img src="\images\sushi.png" alt="Sushi" id="image" />
+          </div>
+
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i>
+              <span class="precio"> 25000 </span>
+            </h2>
+          </div>
+
+          <div class="description">
+            <h6>There are many variations of passages of Lorem Ipsum available.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#protein3"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i>
+              Agregar carrito
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br />
+
+      <!------------------------ENSALADAS --------------------------------->
+      <h1 class="comida">ENSALADAS</h1>
+      <div class="row" id="salad">
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Ensalada César</h3>
+          </div>
+          <div>
+            <img
+              src="\images\ensalada_cesar.png"
+              alt="Ensalada cesar"
+              id="image"
+            />
+          </div>
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i
+              ><span class="precio"> 25000 </span>
+            </h2>
+          </div>
+          <div class="description">
+            <h6>It is a long established fact that a reader will be distracted.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#salad1"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i>
+              Agregar carrito
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Ensalada griega</h3>
+          </div>
+          <div>
+            <img
+              src="\images\ensalada_griega.png"
+              alt="Ensalada griega"
+              id="image"
+            />
+          </div>
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i>
+              <span class="precio"> 25000 </span>
+            </h2>
+          </div>
+          <div class="description">
+              <h6>It is a long established fact that a reader will be distracted.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#salad2"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i>
+              Agregar carrito
+            </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div id="nameProduct">
+            <h3>Ensalada de pasta</h3>
+          </div>
+          <div>
+            <img
+              src="\images\ensalada_pasta.png"
+              alt="Ensalada pasta"
+              id="image"
+            />
+          </div>
+
+          <div id="priceProduct">
+            <h2>
+              <i class="fas fa-dollar-sign"></i>
+              <span class="precio"> 25000 </span>
+            </h2>
+          </div>
+
+          <div class="description">
+              <h6>It is a long established fact that a reader will be distracted.</h6>
+            <br>
+            <button
+              type="button"
+              class="btn btn-warning"
+              data-bs-toggle="modal"
+              data-bs-target="#salad3"
+            >
+              <i class="fas fa-plus-circle"></i> Más información
+            </button>
+          </div>
+          <div class="addProduct">
+            <button class="agregarCarrito">
+              <i class="fas fa-shopping-cart"></i>
+              Agregar carrito
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <div
+      class="modal fade"
+      id="burger1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Hamburguesa especial
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\hamburguesa_especial.png"
+              alt="Hamburguesa especial"
+              id="image"
+            />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          
+          <div class="modal-footer">
+            <button
+              id="contact_button"
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="burger2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Hamburguesa de carne
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\hamburguesa_triple_carne.png"
+              alt="Hamburguesa triple"
+              id="image"
+            />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              id="contact_button"
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="burger3"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Haburguesa de pan negro
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\hamburguesa_negra.png"
+              alt="Hamburguesa negra"
+              id="image"
+            />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              id="contact_button"
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="pizza1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Pizza de bacon</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="\images\pizza_bacon.png" alt="Pizza bacon" id="image" />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="pizza2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Pizza de pollo con champiñones
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\pizza_pollo_champiñones.png"
+              alt="Pizza pollo champiñones"
+              id="image"
+            />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="pizza3"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Pizza de sushi</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="\images\pizza_sushi.png" alt="Pizza sushi" id="image" />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="protein1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Carne a la parrilla
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\carne_parrilla.png"
+              alt="Carne parrilla"
+              id="image"
+            />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="protein2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Costillas de cordero
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\costillas_cordero.png"
+              alt="Costillas cordero"
+              id="image"
+            />
+
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="protein3"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Sushi</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="\images\sushi.png" alt="Sushi" id="image" />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="salad1"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Ensalada césar</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\ensalada_cesar.png"
+              alt="Ensalada cesar"
+              id="image"
+            />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="salad2"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger2"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Ensalada griega
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\ensalada_griega.png"
+              alt="Ensalada griega"
+              id="image"
+            />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="salad3"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="burger3"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">
+              Ensalada de pasta
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="\images\ensalada_pasta.png"
+              alt="Ensalada pasta"
+              id="image"
+            />
+            <p>
+              Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              onclick="location.href='contactanos.html'"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Contáctanos
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+    class="tab-pane fade carrito"
+    id="pills-contact"
+    role="tabpanel"
+    aria-labelledby="pills-contact-tab">
+  <br>
+
+  <table class="table table-dark table-hover">
+    <thead>
+      <tr class="text-primary">
+        <th scope="col"></th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Cantidad</th>
+      </tr>
+    </thead>
+    <tbody class="tbody">
+    </tbody>
+  </table>
+
+  <br><br>
+  <div class="row mx-4">
+    <div class="col">
+      <h3 class="itemCartTotal text-white">Total: 0</h3>
+    </div>
+    <div class="col d-flex justify-content-end">
+      <button class="btn btn-success">COMPRAR</button>
+    </div>
+  </div>
+  
+  </div>
+
+    <span class="button" id="menu_download">
+      <a href="\files\menu_restaurante.pdf" download="Menú restaurante">
+        <b>Descargar menú</b></a
+      >
+    </span>
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="logo">
+              <img
+                src="../images/logo@2x.png"
+                alt=""
+                width="180"
+                height="200"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="mapa_sitioweb">
+              <h1>MAPA DEL SITIO WEB</h1>
+
+              <div class="row" id="map">
+                <div class="col-md-3">
+                  <section id="sec1">
+                    <h2>Nosotros</h2>
+                    <ul>
+                      <li><a href="historia.html#historia">Historia</a></li>
+                      <li><a href="historia.html#equipo">Equipo</a></li>
+                      <li>
+                        <a href="historia.html#comentarios">Comentarios</a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+
+                <div class="col-md-3">
+                  <section id="sec2">
+                    <h2>Menú</h2>
+                    <ul>
+                      <li><a href="menu.html#burger">Hamburguesas</a></li>
+                      <li><a href="menu.html#pizza">Pizzas</a></li>
+                      <li><a href="menu.html#protein">Proteinas</a></li>
+                      <li><a href="menu.html#salad">Ensaladas</a></li>
+                    </ul>
+                  </section>
+                </div>
+
+                <div class="col-md-3">
+                  <section id="sec3">
+                    <h2>Servicios</h2>
+                    <ul>
+                      <li>
+                        <a href="servicios.html#servicios_fd"
+                          >Fiestas infantiles</a
+                        >
+                      </li>
+                      <li>
+                        <a href="servicios.html#servicios_fd"
+                          >Declaraciones o propuestas</a
+                        >
+                      </li>
+                      <li>
+                        <a href="servicios.html#servicios_ca"
+                          >Cena con amigos</a
+                        >
+                      </li>
+                      <li>
+                        <a href="servicios.html#servicios_ca">Aniversarios</a>
+                      </li>
+                      <li>
+                        <a href="servicios.html#servicios_cd"
+                          >Celebración de cumpleaños</a
+                        >
+                      </li>
+                      <li>
+                        <a href="servicios.html#servicios_cd">Despedidas</a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+
+                <div class="col-md-3">
+                  <section id="sec4">
+                    <h2>Contáctanos</h2>
+                    <ul>
+                      <li>
+                        <a href="contactanos.html">Formulario - contacto</a>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3" id>
+            <div class="col-md-3" id="mapa">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127261.64912536141!2d-74.28955800419969!3d4.60717394484627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c75c6cb4b5b%3A0x63e23d4a3f3ea7a3!2sGastrobar%20Gran%20Inka!5e0!3m2!1ses!2sco!4v1631826996019!5m2!1ses!2sco"
+                width="230"
+                height="150"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+              <br />
+              <p style="width: 200px">
+                Restaurante Sal y Salsa Ltda.<br />
+                Calle 19 No. 7-30, Bogotá<br />
+                reservas@salysalsa.comentarios<br />
+                312 325 32
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/script/carrito_de_compra.js"></script>
+  </body>
+</html>

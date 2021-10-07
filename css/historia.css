@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
+
+
+/*-----------------------------------------Barra de navegacion ---------------------------------*/
+#historia{
+    background-image: url(../images/fondo_oscuro.jpg);
+}
+.navbar {
+background-color: black;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.nav-link {
+  color: #ffff !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  margin-right: 15px;
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  background-color: #db8f00;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 3px;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-toggler:focus {
+  color: #ffff;
+  outline: none !important;
+}
+
+.title-navbar {
+  background: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+}
+
+
+
+div .container_historia{
+margin-top:90px;
+margin-left: 20px;
+text-align: center;
+
+}
+
+div .contener_imagen{
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-right: 0;
+    margin-left: 100px;
+
+}
+
+.container_historia .boton{
+    background-color:transparent;
+    border: 1px solid white;
+    border-radius:0;
+    color:white ;
+    /* padding:.7rem 2.5rem; */
+    font-size: 1.25rem;
+    outline: 0;
+}
+
+.container_historia .boton:hover{
+    background-color:white;
+    color:black;
+    border: 1px solid white;
+}
+
+.container .contenido{
+  
+  color:black;
+  margin-bottom: 20px;
+
+}
+
+.container .contenido h1{
+  margin-bottom: 20px;
+}
+
+.img_row{
+  background-color:black;
+  padding: 20px;
+  text-align:center;
+  color: white;
+ 
+
+}
+
+.img_row h1{
+  color: white;
+  background: linear-gradient(
+    135deg,
+    #fff783 0,
+    #ffdf67 25%,
+    #f9c346 50%,
+    #e8a722 75%,
+    #db8f00 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+
+}
+
+#equipo .todo{
+
+}
+
+
+
